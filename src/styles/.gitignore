@@ -1,0 +1,71 @@
+# ----------------------------
+# Node / Vite / React Projects
+# ----------------------------
+
+# Dependency directories
+node_modules/
+
+# Production build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Local environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-error.log*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
+
+# Mac and system files
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Vercel / Supabase Settings
+# ----------------------------
+
+# Vercel output
+.vercel/
+
+# Supabase local emulator and config
+supabase/.temp/
+supabase/.branches/
+supabase/config.toml.backup
+
+# ----------------------------
+# Optional: Ignore test coverage and cache
+# ----------------------------
+coverage/
+.cache/
+*.tsbuildinfo
+
+# ----------------------------
+# Other generated files
+# ----------------------------
+*.zip
+*.tar.gz
+*.tgz
+
+# ----------------------------
+# End of .gitignore
+# ----------------------------
